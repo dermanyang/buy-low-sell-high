@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "buy-low-sell-high"
+version = "0.1.0"
+description = "Bybit API exploration and trading bot"
+authors = ["User"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pybit = "^5.11.0"
+websockets = "^15.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
